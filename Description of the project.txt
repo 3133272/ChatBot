@@ -1,0 +1,16 @@
+A Java-based console chatbot interacts with users, collects five cities (can be added), and provides real-time weather information and multi-day weather forecasts using the Open-Meteo and OpenWeatherMap apis (depending on the api version). The robot uses natural-style prompts to guide users and acquires geographical location and weather data through HTTP requests. JSON parsing is handled by JSON-Simple.
+
+Key Features:
+
+Conversational user input through terminal
+
+City name validation and geolocation lookup
+
+Real-time weather conditions (temperature, humidity, wind, etc.)
+
+4-day weather forecast for each city
+
+JSON API integration using json-simple
+
+Styled terminal output with color coding for clarity
+
